@@ -1,0 +1,230 @@
+.logo img{
+	width: 12%;
+	height: auto;
+	float:left;
+}
+
+li {
+	display: inline;
+	padding-right: 35px;
+	margin-left: 50px;
+	font-size: 12px;
+	font-family: 'Italiana', serif;
+}
+a {
+	color: yellow;
+}
+
+ul {
+	padding-top: 20px;
+	color: yellow;
+	margin-top: 0px;
+}
+
+.navbar {
+	background-color: #CECAC9;
+	height: 60px;
+}
+
+.boxed {
+	border: 3px solid yellow;
+	height: 300px;
+	width: 1200px;
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Spirax', cursive;
+	margin-top: 10px;
+}
+* {box-sizing: border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+	left: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.text {
+  color: black;
+  background: #CECAC9;
+  font-family: 'Italiana', serif;
+  font-weight: bold;
+  font-size: 25px;
+  position: absolute;
+  padding: 10px;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+	vertical-align: middle;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.section1 {
+	float: left;
+	padding: 10px;
+	border: 3px dotted #CECAC9;
+	width: 550px;
+	height: 950px;
+}
+.section2 {
+	float: right;
+	padding: 10px;
+	border: 3px dotted #CECAC9;
+	width: 550px;
+	height: 950px;
+}
+
+.podcast {
+	font-size: 30px;
+	font-family: 'Spirax', cursive;
+	background: yellow;
+	color: black;
+	margin-bottom: 20px;
+}
+.latest img{
+	margin-top: 20px;
+	margin: 0 auto;
+	width: 40%;
+	height: 40%;
+	display: block;
+}
+.caption {
+	font-size: 18px;
+	font-family: 'Italiana', serif;
+	text-align: center;
+	font-weight: bold;
+	display: block;
+	padding-bottom: 30px;
+}
+
+.video {
+	font-family: 'Spirax', cursive;
+	background: yellow;
+	color: black;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.popular img{
+	margin-top: 20px;
+	margin: 0 auto;
+	width: 70%;
+	height: 70%;
+	display: block;
+}
+
+h1 {
+	font-family: 'Italiana', serif;
+	font-size: 60px;
+	margin-top: 50px;
+}
+
+h2 {
+	font-family: 'Italiana', serif;
+	font-size: 22px;
+	color: #666565;
+}
+
+h3 {
+	font-family: 'Italiana', serif;
+	font-size: 15px;
+	color: #666565;
+}
+
+.article img {
+	width: 850px;
+	height: 80%;
+}
+
+.attribute {
+	font-family: 'Italiana', serif;
+	font-size: 13px;
+	color: #4D4C4C;
+}
+
+.article {
+	font-size: 25px;
+	font-family: 'Suranna', serif;
+	line-height: 25px;
+	text-align: center justify;
+	max-width: 900px;
+	padding-left: 50px;
+}
+
+.input {
+	font-size: 20px;
+	font-family: 'Suranna', serif;
+	font-weight: bold;
+}
